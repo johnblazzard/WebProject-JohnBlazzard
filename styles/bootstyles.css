@@ -1,0 +1,56 @@
+body{
+    background-color:cornflowerblue;
+    font-size: 16px;
+}
+.common{
+    text-align: center;
+    position: static;
+}
+
+.header{
+    background-color:azure;
+    color: midnightblue;
+}
+
+h2 {
+    padding: .5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav a {
+    flex: 1 1 auto;
+    display: block;
+    padding: .5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.mainbody{
+    background-color:blanchedalmond;
+    color:rebeccapurple;
+}
+
+.footer{
+    height: 50px;
+    background-color:seagreen;
+    color:cornsilk;
+    line-height: 50px;
+}
+
+p{
+    background-color: aqua;
+    background-attachment: fixed;
+}
